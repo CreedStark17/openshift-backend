@@ -1,3 +1,5 @@
+[![Build Status](http://hpa2-poc.northeurope.cloudapp.azure.com:8080/job/openshift-backend/badge/icon)](http://hpa2-poc.northeurope.cloudapp.azure.com:8080/job/openshift-backend/)
+
 # openshift-backend
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
