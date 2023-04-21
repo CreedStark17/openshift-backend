@@ -111,7 +111,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.csw.ExampleResource</mainClass>
+                            <mainClass>com.csw.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
