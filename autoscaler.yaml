@@ -1,8 +1,8 @@
 kind: HorizontalPodAutoscaler
 apiVersion: autoscaling/v2beta2
 metadata:
-  name: openshift-backend
-  namespace: ostest
+  name: openshift-backend-from-pipeline
+  namespace: jpcaetano-dev
 spec:
   scaleTargetRef:
     kind: Deployment
