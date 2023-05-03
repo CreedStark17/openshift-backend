@@ -5,7 +5,7 @@ metadata:
   namespace: jpcaetano-dev
 spec:
   scaleTargetRef:
-    kind: Deployment
+    kind: DeploymentConfig
     name: openshift-backend-from-pipeline
     apiVersion: apps/v1
   minReplicas: 3
