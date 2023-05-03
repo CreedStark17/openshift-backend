@@ -11,6 +11,6 @@ public class ExampleResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Helloooos RESTEasy after update with trigger after fork and new update with triggers";
+        return "Helloooos RESTEasy after update with trigger after fork and new update with triggers, now on my repo";
     }
 }
