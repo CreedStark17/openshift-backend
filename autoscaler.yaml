@@ -6,7 +6,7 @@ metadata:
 spec:
   scaleTargetRef:
     kind: Deployment
-    name: openshift-backend
+    name: openshift-backend-from-pipeline
     apiVersion: apps/v1
   minReplicas: 3
   maxReplicas: 5
