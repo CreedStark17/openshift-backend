@@ -1,13 +1,13 @@
 kind: HorizontalPodAutoscaler
 apiVersion: autoscaling/v2beta2
 metadata:
-  name: openshift-backend-from-pipeline
-  namespace: jpcaetano-dev
+  name: openshift-backend
+  namespace: ostest
 spec:
   scaleTargetRef:
-    kind: DeploymentConfig
-    name: openshift-backend-from-pipeline
-    apiVersion: apps.openshift.io/v1
+    kind: Deployment
+    name: openshift-backend
+    apiVersion: apps/v1
   minReplicas: 3
   maxReplicas: 5
   metrics:
