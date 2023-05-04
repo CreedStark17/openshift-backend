@@ -1,0 +1,19 @@
+kind: HorizontalPodAutoscaler
+apiVersion: autoscaling/v2beta2
+metadata:
+  name: openshift-backend-from-pipeline
+  namespace: jpcaetano-dev
+spec:
+  scaleTargetRef:
+    kind: DeploymentConfig
+    name: openshift-backend-from-pipeline
+    apiVersion: apps.openshift.io/v1
+  minReplicas: 3
+  maxReplicas: 5
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 80
