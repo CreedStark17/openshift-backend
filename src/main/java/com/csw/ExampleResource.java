@@ -11,6 +11,6 @@ public class ExampleResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello clean RESTEasy, now communicating with frontend from one specific branch";
+        return "Hello clean RESTEasy, now communicating with frontend from Caetano specific branch";
     }
 }
